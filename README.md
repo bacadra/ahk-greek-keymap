@@ -10,7 +10,7 @@ The script provides a Greek keymap for engineering purposes, allowing users to e
 
 * For full list of predefined items check the [script.ahk](script.ahk) file.
 
-* The script will wait for up to 2.5 seconds for input, but you can interrupt it at any time by pressing the `Esc` key.
+* The script will wait for up to 1 second for input after every keypress, but you can interrupt it at any time by pressing the `Esc` key.
 
 ## Usage
 

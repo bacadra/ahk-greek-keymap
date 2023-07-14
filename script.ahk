@@ -4,7 +4,8 @@
 ; Start collection of input
 Pause::
   {
-    ih := InputHook("CT2.5", "{Esc}")
+    ih := InputHook("C", "{Esc}")
+    ih.Timeout := 1
     ih.Start()
     ih.OnChar := Proceed
   }
@@ -19,6 +20,7 @@ TextRaw(ih, text)
 ; Check if input match any case
 Proceed(ih, char)
 {
+  ih.Timeout := 1
   switch ih.Input, "On"
   {
     case "q" : TextRaw(ih, "θ")
