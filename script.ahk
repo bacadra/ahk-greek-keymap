@@ -79,7 +79,7 @@ Proceed(ih, char)
     case ":)": TextRaw(ih, "🙂")
     case ":G": TextRaw(ih, "😎")
     case ":D": TextRaw(ih, "😂")
-    case ":I": TextRaw(ih, "🤔")
+    case ":T": TextRaw(ih, "🤔")
     case ":L": TextRaw(ih, "👍")
     case ":B": TextRaw(ih, "🍺")
   }
