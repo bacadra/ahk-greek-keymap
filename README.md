@@ -22,6 +22,6 @@ Using the script:
 2. Download the `script.ahk` from this repository.
 3. Run the `script.ahk` script by double-clicking on it or using the `Run Script` option from the AutoHotKey application.
 
-# Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
+# Contributing
 
-If you have any ideas on how to improve the package, discover any bugs, or would like to support the development of new features, please feel free to share them on GitHub.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
