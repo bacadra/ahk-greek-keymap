@@ -40,7 +40,7 @@ Worker_1(ih, char)
   ih.Timeout := 1
   switch ih.Input, "On"
   {
-    ; Greek letters
+    ; Greek characters
     ; https://jblevins.org/log/greek
     case  "a": TextRaw(ih, "α") ; \alpha
     case  "b": TextRaw(ih, "β") ; \beta
@@ -94,7 +94,7 @@ Worker_1(ih, char)
     case  "-": TextRaw(ih, "✘")
     case  ".": TextRaw(ih, "•")
 
-    ; Emoji
+    ; Emojis
     case ":(": TextRaw(ih, "🙁")
     case ":)": TextRaw(ih, "🙂")
     case ":G": TextRaw(ih, "😎")
@@ -115,7 +115,7 @@ Worker_2(ih, char)
     case "v": TextRaw(ih, "÷") ; \div
     case "e": TextRaw(ih, "≡") ; \equiv
     case "i": TextRaw(ih, "∞") ; \infty
-    case "l": TextRaw(ih, "∫") ; \integral
+    case "l": TextRaw(ih, "∫") ; \int
     case "n": TextRaw(ih, "∇") ; \nabla
     case "p": TextRaw(ih, "∏") ; \prod
     case "r": TextRaw(ih, "√") ; \root
@@ -125,11 +125,11 @@ Worker_2(ih, char)
     case "+": TextRaw(ih, "±") ; \pm
     case "'": TextRaw(ih, "ʾ") ; apostrophe
 
-    ; Time & date
-    case "dy" : TextRaw(ih, FormatTime(,"yyyy/MM/dd"))
+    ; Time & date tags
+    case "df" : TextRaw(ih, FormatTime(,"yyyy/MM/dd"))
     case "dt" : TextRaw(ih, FormatTime(,"yyyyMMdd"))
     case "d[" : TextRaw(ih, '[' FormatTime(,"yyyyMMdd") ']')
-    case "ty" : TextRaw(ih, FormatTime(,"yyyy/MM/dd HH:mm:ss"))
+    case "tf" : TextRaw(ih, FormatTime(,"yyyy/MM/dd HH:mm:ss"))
     case "tt" : TextRaw(ih, FormatTime(,"yyyyMMddHHmmss"))
     case "t[" : TextRaw(ih, '[' FormatTime(,"yyyyMMddHHmmss") ']')
   }

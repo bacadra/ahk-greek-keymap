@@ -1,10 +1,10 @@
 # greek-keymap
 
-Greek keyboard for technical purposes. A package that allows users to easily enter Greek characters into their text using [AutoHotKey v2](https://www.autohotkey.com/).
+Greek keyboard for technical purposes. A package that allows users to easily enter unicode characters into their text using [AutoHotKey v2](https://www.autohotkey.com/).
 
 ## Features
 
-- Press the `Pause` _n_ times to activate worker of _n_ level.
+- Press the `Pause` _n_ times to activate Worker _n_ level.
 - Type text to match selected Worker, e.g. `Pause` `r` input `ρ`, but `Pause` `Pause` `r` input `√`.
 - Text case in considered, e.g. `Pause` `d` input `δ`, but `Pause` `D` input `Δ`.
 - The script will wait for up to 1 second for input after every keypress, but you can interrupt it at any time by pressing the `Esc` key.
@@ -22,10 +22,10 @@ Using the script:
 2. Download the `script.ahk` from this repository.
 3. Run the `script.ahk` script by double-clicking on it or using the `Run Script` option from the AutoHotKey application.
 
-
 ## Worker 1st level
 
-Greek keymap:
+Greek characters acc. [link](https://jblevins.org/log/greek):
+
 -  `a`: `α` (_aka_ `\alpha`)
 -  `b`: `β` (_aka_ `\beta`)
 -  `g`: `γ` (_aka_ `\gamma`)
@@ -70,14 +70,16 @@ Greek keymap:
 -  `w`: `ω` (_aka_ `\omega`)
 -  `W`: `Ω` (_aka_ `\Omega`)
 
-Tasklist bullets:
+Tasklist bullets acc. [link](https://github.com/bacadra/pulsar-language-tasklist):
+
 -  `/`: `▷`
 -  `*`: `☐`
 -  `+`: `✔`
 -  `-`: `✘`
 -  `.`: `•`
 
-Emoji:
+Emojis:
+
 - `:(`: `🙁`
 - `:)`: `🙂`
 - `:G`: `😎`
@@ -88,11 +90,12 @@ Emoji:
 
 ## Worker 2nd level
 
-Math symbols:
+Math symbols acc. [link](https://ctan.org/pkg/amsmath):
+
 - `v`: `÷` (_aka_ `\div`)
 - `e`: `≡` (_aka_ `\equiv`)
 - `i`: `∞` (_aka_ `\infty`)
-- `l`: `∫` (_aka_ `\integral`)
+- `l`: `∫` (_aka_ `\int`)
 - `n`: `∇` (_aka_ `\nabla`)
 - `p`: `∏` (_aka_ `\prod`)
 - `r`: `√` (_aka_ `\root`)
@@ -100,15 +103,16 @@ Math symbols:
 - `=`: `≈` (_aka_ `\aprox`)
 - `@`: `°` (_aka_ `\degree`)
 - `+`: `±` (_aka_ `\pm`)
-- `'`: `ʾ` (_aka_ `apostrophe`)
+- `'`: `ʾ`
 
-Time & date:
-- `df`: Format(`yyyy/MM/dd`)
-- `dt`: Format(`yyyyMMdd`)
-- `d[`: Format(`[yyyyMMdd]`)
-- `tf`: Format(`yyyy/MM/dd HH:mm:ss`)
-- `tt`: Format(`yyyyMMddHHmmss`)
-- `t[`: Format(`[yyyyMMddHHmmss]`)
+Time & date tags acc. [link](https://www.autohotkey.com/docs/v2/lib/FormatTime.htm):
+
+- `df`: `yyyy/MM/dd`
+- `dt`: `yyyyMMdd`
+- `d[`: `[yyyyMMdd]`
+- `tf`: `yyyy/MM/dd HH:mm:ss`
+- `tt`: `yyyyMMddHHmmss`
+- `t[`: `[yyyyMMddHHmmss]`
 
 # Contributing
 
