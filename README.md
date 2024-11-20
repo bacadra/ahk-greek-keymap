@@ -5,8 +5,8 @@ Greek keyboard for technical purposes. A package that allows users to easily ent
 ## Features
 
 - Press the `Pause` _n_ times to activate Worker _n_ level.
-- Type text to match selected Worker, e.g. `Pause` `r` input `ρ`, but `Pause` `Pause` `r` input `√`.
-- Text case in considered, e.g. `Pause` `d` input `δ`, but `Pause` `D` input `Δ`.
+- Type text to match selected Worker, e.g. `Pause r` send `ρ`, but `Pause Pause r` send `√`.
+- Text case in considered, e.g. `Pause d` send `δ`, but `Pause D` send `Δ`.
 - The script will wait for up to 1 second for input after every keypress, but you can interrupt it at any time by pressing the `Esc` key.
 
 ## Usage
